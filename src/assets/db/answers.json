@@ -1,0 +1,134 @@
+{
+  "status": "Request Completed",
+  "statusCode": 200,
+  "data": [
+    {
+      "id": 1,
+      "answer": "Undefined means the variable got declared but value is not initialized yet whereas null means it is a empty or non existent value"
+    },
+    {
+      "id": 2,
+      "answer": "the && operator do the check of both the operends if both are truthy then it will return true , if anyone is falsy then return false"
+    },
+    {
+      "id": 3,
+      "answer": "the logical OR meant to manipulate boolean values only. If any of its argument are true, it return true otherwise false"
+    },
+    {
+      "id": 4,
+      "answer": "the unary operator plus is the fastest and preferred way of converting something into a number because it does not perform any other operation on the number"
+    },
+    {
+      "id": 5,
+      "answer": "DOM is document object modal. It is a programming API for HTML and XML documents. it defines the logical structure of documents and the way a document is accessed in manipulated."
+    },
+    {
+      "id": 6,
+      "answer": "Event propogation deals with the three phases capturing, target and bubelling phase"
+    },
+    {
+      "id": 7,
+      "answer": "Event bubbeling is a type of event propogation when an event happens on an element, it first runs on the handlers on it, then on it's parents, then all the way up to other ancestors"
+    },
+    {
+      "id": 8,
+      "answer": "Event capturing is a type of event propogattion when an event happens on an element, it will starts from top element to the target element it is opposite of Event Bubbling"
+    },
+    {
+      "id": 9,
+      "answer": "stopPropogation() prevents further of current event in the capturing and bubbling phases whereas event.preventDefault() is useful for prevent the default beaviour occuring from an event"
+    },
+    {
+      "id": 10,
+      "answer": "we can use event.defaultPrvented property in the event object it return a boolean indicating if the event.preventDefault() was called in the perticular element"
+    },
+    {
+      "id": 12,
+      "answer": "event.target is the element on which the event occured."
+    },
+    {
+      "id": 13,
+      "answer": "event.currentTarget is he element on which we attach the event handler explicitly"
+    },
+    {
+      "id": 14,
+      "answer": "the difference between == (abstract equality) and === (strict equality) is the == compares by value after coercion and === compares value and type without coercion."
+    },
+    {
+      "id": 15,
+      "answer": "JS compares objects and premitives differently. In primitives it compares by value while in objects it compares them by reference or the address in the memory where the variable is stored."
+    },
+    {
+      "id": 16,
+      "answer": "!! (Double bang) operator turn value into boolean, basically it is a fancy way of converting a value into a boolean"
+    },
+    {
+      "id": 17,
+      "answer": "we can use , or comma operator to evaluate multiple expressions in one line. It evaluates from left to right and returns the value of the last items or last operand ex. var x=5; x=(x++,x=x+5,x* = 2,x -=3, x +=10) then you will see value of x is 21"
+    },
+    {
+      "id": 18,
+      "answer": "a variable can be used before it has been decleared, only variable declarations are hoisted to the top, not variable initialization"
+    },
+    {
+      "id": 19,
+      "answer": "scope in JS is the area where we have valid access to variables or functions, JS have three types of scopes global scope, function scope and  block scope(ES6)"
+    },
+    {
+      "id": 20,
+      "answer": "a closure is a function having access to the parent scope. It preserves data from parent, a closure is a inner function that has access to the outer function's variable. Every closure have 3 scopes 1.Local scope (own scope), 2. Outer function scope, 3. Global Scope"
+    },
+    {
+      "id": 21,
+      "answer": "falsy values are that when converted to boolean becomes false eg. const falsyValues = ['', 0, null, undefined, NaN, false]"
+    },
+    {
+      "id": 22,
+      "answer": "use Boolean function or double bang (!!) operator."
+    },
+    {
+      "id": 23,
+      "answer": "use strict is a ES5 feature in JS that makes code in strict mode in a function or entire scripts. Strict mode avoid bugs early in our code and add restrictions to it."
+    },
+    {
+      "id": 24,
+      "answer": "this refers to a value of object that is currently executing or invoking the function "
+    },
+    {
+      "id": 25,
+      "answer": "the prototype is simplest terms is a blueprint of an object. it's core concept around JS Prototype inheritance"
+    },
+    {
+      "id": 26,
+      "answer": "An Immediately Invoked Function Expression (IIFE) is a way to execute function immediately, as soon as they are created. (()=>{console.log('happy')})()"
+    },
+    {
+      "id": 27,
+      "answer": "apply invokes a function specifying the this or owner object of that function on that time of invocation"
+    },
+    {
+      "id": 28,
+      "answer": "With a call method, you can write method that can be used on different objects, In a function this refers to owner of the function, i call method first argument refers to this and next  "
+    },
+    {
+      "id": 29,
+      "answer": "the only difference between call and apply methods is the way we pass the arguments, the way we are passing arguments the in apply method first argument again the reference to the this variable and the second argument array of values to the arguments what we have to pass in the function"
+    },
+    {
+      "id": 30,
+      "answer": "bind method returns a new function that is bound the method with the this (owner) object and arguments and returns a copy of that method"
+    },
+    {
+      "id": 31,
+      "answer": "JS is a multi-paradigm language that allows you to freely mix and match the object-oriented, procedural and functional paradigms, immutability is a core principle of funtional programming, JS array has map, filter, reduce, methods which are the most famous functions in the functional programming world because of their usefullness and because they do not mutate or change the array which makes these functions pure "
+    },
+    {
+      "id": 32,
+      "answer": "Higher-Order funciton are the functions that can return a function"
+    },
+    {
+      "id": 72,
+      "answer": "Prevents other listners of the same event from being called"
+    }
+  ]
+}
