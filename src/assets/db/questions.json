@@ -1,0 +1,128 @@
+{
+  "status": "Request Completed",
+  "statusCode": 200,
+  "data": [
+    { "id": 1, "que": "what is the difference between undefiend and null?" },
+    { "id": 2, "que": "what does && operator do ?" },
+    { "id": 3, "que": "what does the || operator do ?" },
+    {
+      "id": 4,
+      "que": "is using the + or unary plus operator the fastest way in converting a string to a number ?"
+    },
+    { "id": 5, "que": "what is DOM ?" },
+    { "id": 6, "que": "what is event propogation ?" },
+    { "id": 7, "que": "what is event bubelling ?" },
+    { "id": 8, "que": "what is event capturing ?" },
+    {
+      "id": 9,
+      "que": "what is the difference between event.preventDefault() and event.stopPropogation() methods ?"
+    },
+    {
+      "id": 10,
+      "que": "how to know if the event.preventDefault() method was used in an element ?"
+    },
+    { "id": 11, "que": "why does this code obj.someprop.x throw an error ?" },
+    { "id": 12, "que": "what is the event.target" },
+    { "id": 13, "que": "what is event.currentTarget" },
+    { "id": 14, "que": "what is the diffence between == and === ?" },
+    {
+      "id": 15,
+      "que": "why does it return false when comparing two similar objects in Javascript ?"
+    },
+    { "id": 16, "que": "what does the !! operator do ?" },
+    { "id": 17, "que": "how to evaluate multiple expressions in one line ?" },
+    { "id": 18, "que": "what is hoisting ?" },
+    { "id": 19, "que": "what is scope ?" },
+    { "id": 20, "que": "what are closures ?" },
+    { "id": 21, "que": "what are the falsy values in javascript ?" },
+    { "id": 22, "que": "how to check if a value is falsy ?" },
+    { "id": 23, "que": "what does *use strict*do ?" },
+    { "id": 24, "que": "what is the value of this in javascript ?" },
+    { "id": 25, "que": "what is the prototype of an object ?" },
+    { "id": 26, "que": "what is an IIFE, what is the use of it ?" },
+    { "id": 27, "que": "what is the use of Function.Prototype.apply method ?" },
+    { "id": 28, "que": "what is the use of Function.Prototype.call method ?" },
+    {
+      "id": 29,
+      "que": "what is the difference between Function.Prototype.apply and Function.Prototype.call ?"
+    },
+    { "id": 30, "que": "what is the use of Function.Prototype.bind method ?" },
+    {
+      "id": 31,
+      "que": "what is functional programming and what are the features of javascript that makes it a candidate as a functional language"
+    },
+    { "id": 32, "que": "what are the Higher Order Functions ?" },
+    { "id": 33, "que": "why are functions called First-class Objects ?" },
+    { "id": 34, "que": "implement the array.prototype.map method by hand" },
+    { "id": 35, "que": "implement the array.prototype.filter method by hand" },
+    { "id": 36, "que": "implement the array.prototype.reduce method by hand" },
+    { "id": 37, "que": "what is the arguments object ?" },
+    { "id": 38, "que": "how to create a object without a prototype ?" },
+    {
+      "id": 39,
+      "que": "whe does b in this code become a global variable when you call this function ?"
+    },
+    { "id": 40, "que": "what is ECMASCRIPT ?" },
+    { "id": 41, "que": "what are the new features in ES6 or ECMASCRIPT" },
+    {
+      "id": 42,
+      "que": "what is the difference between var, let and const keywords ?"
+    },
+    { "id": 43, "que": "what are arrow function ?" },
+    { "id": 44, "que": "what are classes ?" },
+    { "id": 45, "que": "what are the template literals ?" },
+    { "id": 46, "que": "what is object desctructuring" },
+    { "id": 47, "que": "what are ES6 modules" },
+    { "id": 48, "que": "what is Set object and how does it work ?" },
+    { "id": 49, "que": "what is a callback function ?" },
+    { "id": 50, "que": "what are promises ?" },
+    { "id": 51, "que": "what is async/await and how does it work ?" },
+    {
+      "id": 52,
+      "que": "what is the difference between spread operator and rest operator ?"
+    },
+    { "id": 53, "que": "what is the default parameters ?" },
+    { "id": 54, "que": "what are wrapper objects ?" },
+    {
+      "id": 55,
+      "que": "what is difference between implicit and explicit coercion"
+    },
+    { "id": 56, "que": "what is NAN? and how to check if a value is NAN ?" },
+    { "id": 57, "que": "how to check if a value is an array ?" },
+    {
+      "id": 58,
+      "que": "how to check if a number is even without using the % or modulo operator ?"
+    },
+    {
+      "id": 59,
+      "que": "how to check if a certain property exists in an object ?"
+    },
+    { "id": 60, "que": "what is AJAX ?" },
+    { "id": 61, "que": "what are the ways of making objects in javascript ?" },
+    {
+      "id": 62,
+      "que": "what is the difference between object.seal and object.freeze methods ?"
+    },
+    {
+      "id": 63,
+      "que": "what is the difference between the in operator and the hasOwnProprty methods in objects ?"
+    },
+    {
+      "id": 64,
+      "que": "what are the ways to deal with asynchronous code in javascript ?"
+    },
+    {
+      "id": 65,
+      "que": "what is the difference between a function expression and function declaration ?"
+    },
+    { "id": 66, "que": "how many ways can a function be invoked ?" },
+    { "id": 67, "que": "what is memoization and what is the use it ?" },
+    { "id": 68, "que": "implement a memoization helper function ?" },
+    {
+      "id": 69,
+      "que": "why does typeof null return object ? How to check if the value is null ?"
+    },
+    { "id": 70, "que": "what does the new keyword do ?" },
+    { "id": 72, "que": "what is does stopImmediatePropogation ? " }
+  ]
+}
